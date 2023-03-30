@@ -1,0 +1,258 @@
+*{  
+    padding: 0;
+    margin: 0;
+}       
+body{
+    background-color: black;
+}    
+span{
+    color:rgb(246,2,222);
+}
+.pop{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    margin: 30px 40px;
+    display: inline-block;
+}
+nav ul li a{
+    font-family:cursive;
+    font-size: 180%;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    font-size: xx-large;
+    box-shadow: 0px 5px rgb(246, 2, 222);
+    transition: 1.5s;
+    color:rgb(246, 2, 222);
+}
+.poop{
+    
+    color: white;
+    margin-left: 9%;
+    margin-top: 17%;
+}
+.poop a{
+    display:inline-block;
+    margin: 30px 0;
+    padding: 10px;
+    color: yellow;
+    background-color: black;
+    border: 2px solid white;
+    text-decoration: none;
+    transition:1.5s;
+}
+.poop a:hover{
+    background-color:rgb(246, 2, 222) ;
+    color:white;
+}
+.poop p{
+    font-size: x-large;
+    font-style: "Lucida Console", "Courier New", monospace;
+}
+.poop h1{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgg{
+    
+    margin-left: 900px;
+    margin-top: -500px;
+}
+.hhh{
+    margin-top: 300px;
+    margin-left: 700px;
+    color: white;
+}
+.hhh p{
+    color: rgb(187, 244, 186);
+    font-style:normal;
+    margin-left: -400px;
+    margin-right: 400px;
+    font-size: x-large;
+    text-align:justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.hhh h3{
+    color:rgb(246, 2, 222) ;
+    margin-left: -400px;
+    font-size: 50px;
+}
+#kk{
+    margin-left: 50px;
+}    
+.imgg{
+    margin-left: 900px;
+}
+p mark {
+    background:transparent;
+}
+p mark:hover {
+    color:yellow;
+    cursor:pointer;
+}
+.logo img{
+    margin-left: 250px;
+    margin-top: 100px;
+    padding-left: 50px;
+    justify-content:center;
+    display: inline block;
+}
+.ed h3{
+    margin-top: 50px;
+    color:rgb(246, 2, 222) ;
+    font-size: xxx-large;
+    text-align: center;
+}
+.ed ul li{
+    margin-top: 30px;
+    font-size: x-large;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+#il{
+    word-spacing: 8px;
+}
+.ed a{
+    color: rgb(187, 244, 186);
+    text-decoration: none;
+    cursor: help;
+}
+.tool{
+    visibility: hidden;
+}
+.tool:hover{
+    visibility: visible;
+    color: white;
+}
+#il:hover{
+    transition:1.5s ;
+    font-size: xx-large;
+}
+.pro{
+    margin-top: 100px;
+    color: white;
+}
+.pro h2{
+    text-align: center;
+    font-size: xxx-large;
+    color:rgb(246, 2, 222) ;
+}
+.bb{
+    margin-top: 50px;
+}
+.bb h3{
+    text-decoration:underline;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;
+}
+.bb p{
+    font-size: xx-large;
+    margin-left: 300px;
+}
+.bb a{
+    margin-left: 300px ;
+}
+#lll{
+    font-size: xx-large;
+    color:rgb(246, 2, 222)  ;
+    margin-left: 200px;
+}
+.min h4{
+    padding: 30px;
+    text-decoration: underline;
+    font-size: xx-large;
+    margin-left: 200px;
+}
+.min p{
+    margin-left: 300px;
+    margin-right: 500px;
+    font-size: x-large;
+}
+.min a{
+    margin-left: 300px;
+}
+.pro p{
+    color: rgb(6, 211, 248);
+}
+.pro a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.con h2{
+    margin-top: 120px;
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(246, 2, 222);
+}
+.man ul{
+    margin-left: 400px;
+    margin-bottom: 0px;
+}
+.man ul li{
+    list-style: none;
+    display:inline-block;
+    padding-top: 150px;
+    padding-left: 180px;
+    justify-content:space-between;
+}
+#imm{
+    margin-top: 100px;
+    margin-left: 900px;
+}
+.con h4{
+    letter-spacing: 2px;
+    padding-top: 30px;
+    font-size: xx-large;
+    color:yellow;
+    text-align: center;
+}
+.header{
+    padding: 10px 16px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + body{
+    padding-top: 102px;
+}
+.myHeader{
+    overflow: hidden;
+    width: 100%;
+    margin:0px;
+    
+}
+header{
+    background-color: black;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+footer{
+    margin: 8%;
+}
+html{
+    scroll-behavior: smooth;
+}
